@@ -76,7 +76,7 @@ section {
     height: 200px;
     position: absolute;
     top: 20px;
-    left: 45%;
+    left: 30%;
   }
   /*balloon Animation*/
   .balloon {
@@ -93,5 +93,27 @@ section {
     }
   }
   
+  /*balloon image*/
+.black-cat img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  right: 30%;
+}
+/*balloon Animation*/
+.black-cat {
+  animation: balloon-scoping 2s alternate infinite;
+
+  animation-timing-function: linear;
+}
+@keyframes balloon-scoping {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
   
   
