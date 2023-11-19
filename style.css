@@ -38,13 +38,12 @@ section {
     animation: shishimai 4s linear infinite alternate;
   }
   @keyframes shishimai {
-      0% {
-      transform: rotate(0deg) translateX(-100px) rotate(0deg);
-      }
-  
-      100% {
-          transform: rotate(180deg) translateX(-100px) rotate(-180deg);
-      }
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(100px);
+    }
   }
   
   
@@ -62,12 +61,11 @@ section {
   }
   @keyframes hiyoko {
     0% {
-        transform: rotate(0deg) translateX(-100px) rotate(0deg);
-        }
-    
-        100% {
-            transform: rotate(180deg) translateX(-100px) rotate(-180deg);
-        }
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(100px);
+    }
   }
 
   /*balloon image*/
