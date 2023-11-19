@@ -35,7 +35,7 @@ section {
   }
   /*shishimai Animation*/
   .shishimai {
-    animation: shishimai 4s linear infinite alternate;
+    animation: shishimai 2s linear infinite alternate;
   }
   @keyframes shishimai {
     0% {
@@ -57,7 +57,7 @@ section {
   }
   /*hiyoko Animation*/
   .hiyoko {
-    animation: hiyoko 5s linear infinite alternate;
+    animation: hiyoko 2s linear infinite alternate;
   }
   @keyframes hiyoko {
     0% {
