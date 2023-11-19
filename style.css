@@ -74,7 +74,7 @@ section {
     height: 200px;
     position: absolute;
     top: 20px;
-    left: 40%;
+    left: 30%;
   }
   /*balloon Animation*/
   .balloon {
@@ -97,7 +97,7 @@ section {
   height: 200px;
   position: absolute;
   top: 20px;
-  right: 40%;
+  right: 30%;
 }
 /*balloon Animation*/
 .black-cat {
