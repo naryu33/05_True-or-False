@@ -4,7 +4,7 @@ const questionText = document.getElementById('question');
 let correctAnswer;
 
 const questions = [
-    {question: '野尻湖遺跡から( ? )が発見された。1,ナウマンゾウ　2,打製石器　3,磨製石器4,マンモス', answer: 1},
+    {question: '野尻湖遺跡から( ? )が発見された。1,ナウマンゾウ　2,打製石器　3,磨製石器　4,マンモス', answer: 1},
     {question: '三内丸山遺跡は( ? )にある。1,長野県　2,群馬県　3,青山県　4奈良県,', answer: 3},
     {question: '縄文時代には( ? )というゴミ捨て場があった。1,森貝塚　2,林貝塚　3,大林貝塚　4,大森貝塚', answer: 4},
     {question: '弥生時代に( ? )が伝来した。1,仏教　2,土偶　3,須恵器　4,仏教', answer: 1},
